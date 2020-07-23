@@ -1,0 +1,72 @@
+/*
+
+					mouse 			    midi 		osc  		serial  				
+knob				  +					 +									
+slider				  +					 +									
+
+toggle				  +					 +									
+button				  +					 +									
+bang				  +					 +									
+
+radioButton			  +					 +										
+
+----------------------------------------
+
+MIDI learn
+
+----------------------------------------
+----------------------------------------
+Visuals
+
+Tüm visualları geçir
+
+SlidingRectste zoom in özelliği için presetlerden kamera açılarıyla oyna ilk 7 parametre (0.0 0.0 0.0 3.14 0.0 3.14 2000.0)
+----------------------------------------
+----------------------------------------
+config
+- resolution
+- decorated? 
+- frame position
+- last sound parameters (gain, decay, windowX, windowWidth)
+- last osc config (incomingPort, outgoingPort, remoteIP)
+- last midi config (midiDeviceName, midiMapping)
+
+----------------------------------------
+PeasyCam CameraState!
+----------------------------------------
+OSC
+----------------------------------------
+Preview
+Syphon & Spout
+----------------------------------------
+Console memory size limit
+----------------------------------------
+Sound filter window x ekseninde drag ederken mousedan kaçıyo
+----------------------------------------
+// VisualSpecificParameters
+----------------------------------------
+// Save/Load Presets
+----------------------------------------
+// Thumbnails panel
+----------------------------------------
+// PeasyCam
+----------------------------------------
+// Foreground
+// - trail
+// - black
+----------------------------------------
+External apps
+
+Scenario cue app
+Tablet App
+	- vsp
+	- camera
+	- thumbnails
+	- sounds
+	- presets
+
+----------------------------------------
+
+
+----------------------------------------
+*/

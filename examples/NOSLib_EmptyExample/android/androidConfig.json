@@ -1,0 +1,928 @@
+[
+  {
+    "IncomingPort: ": 2345,
+    "OutgoingPort: ": 7011,
+    "IP: ": "192.168.1.68"
+  },
+  [
+    {
+      "Engine Index: ": 0,
+      "Name: ": "VisTemp3D"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "VisTemp3DxAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "xASD"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "VisTemp3DyAmount",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "yQWE"
+    },
+    {
+      "Max: ": 6.2831854820251465,
+      "Name: ": "VisTemp3Drot",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "ROTATION"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "VisTemp3Dfill",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "FILL"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "VisTemp3DstrokeC",
+      "Type: ": "bang",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "color"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "VisTemp3DstrokeW",
+      "Type: ": "button",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "thick"
+    },
+    {
+      "Max: ": 3,
+      "Name: ": "VisTemp3DrectSize",
+      "Type: ": "radioButton",
+      "Index: ": 3,
+      "Min: ": 0,
+      "Label: ": "size"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 1,
+      "Name: ": "Wavydots"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "WavydotslineAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Line Amount"
+    },
+    {
+      "Max: ": 300,
+      "Name: ": "WavydotspointAmount",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Point Amount"
+    },
+    {
+      "Max: ": 300,
+      "Name: ": "WavydotswaveStretch",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 20,
+      "Label: ": "Point Stretch"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "WavydotslineWave",
+      "Type: ": "knob",
+      "Index: ": 3,
+      "Min: ": 0,
+      "Label: ": "Wave"
+    },
+    {
+      "Max: ": 1000,
+      "Name: ": "WavydotslineLength",
+      "Type: ": "knob",
+      "Index: ": 4,
+      "Min: ": 0,
+      "Label: ": "Length"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "Wavydotsdifference",
+      "Type: ": "knob",
+      "Index: ": 5,
+      "Min: ": 0,
+      "Label: ": "Difference"
+    },
+    {
+      "Max: ": 5,
+      "Name: ": "Wavydotsrange",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Range"
+    },
+    {
+      "Max: ": 0.05000000074505806,
+      "Name: ": "WavydotsspeedInc",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 30,
+      "Name: ": "Wavydotsthickness",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "thickness"
+    },
+    {
+      "Max: ": 0.009999999776482582,
+      "Name: ": "WavydotssoundEffect",
+      "Type: ": "fader",
+      "Index: ": 3,
+      "Min: ": 0,
+      "Label: ": "Sound"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 2,
+      "Name: ": "CircularFlow"
+    },
+    {
+      "Max: ": 3000,
+      "Name: ": "CircularFlowparticleAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Amount"
+    },
+    {
+      "Max: ": 500,
+      "Name: ": "CircularFlowradius",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Radius"
+    },
+    {
+      "Max: ": 6.2831854820251465,
+      "Name: ": "CircularFlowrotation",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Rotation"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "CircularFlowsoundThreshold",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0.5,
+      "Label: ": "Threshold"
+    },
+    {
+      "Max: ": 20,
+      "Name: ": "CircularFlownoiseComplexity",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Complexity"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "CircularFlowspeed",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": 0.009999999776482582,
+      "Label: ": "Speed"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 3,
+      "Name: ": "Splines"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "SplinesribbonCount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Amount"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SplinesribbonSpeed",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 5,
+      "Name: ": "SplinesribbonThickness",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 1,
+      "Label: ": "Thickness"
+    },
+    {
+      "Max: ": 0.009999999776482582,
+      "Name: ": "SplinesribbonCX",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 9.999999747378752E-6,
+      "Label: ": "Cycloid X"
+    },
+    {
+      "Max: ": 0.009999999776482582,
+      "Name: ": "SplinesribbonCY",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 9.999999747378752E-6,
+      "Label: ": "Cycloid Y"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SplinesribbonLength",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Length"
+    },
+    {
+      "Max: ": 3,
+      "Name: ": "SplinesribbonMode",
+      "Type: ": "radioButton",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Mode"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 4,
+      "Name: ": "LineWall"
+    },
+    {
+      "Max: ": 35,
+      "Name: ": "LineWalllwXAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 1,
+      "Label: ": "X Amount"
+    },
+    {
+      "Max: ": 35,
+      "Name: ": "LineWalllwYAmount",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 1,
+      "Label: ": "Y Amount"
+    },
+    {
+      "Max: ": 8,
+      "Name: ": "LineWalllwComplexity",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Noise Res"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "LineWalllwWidth",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 1,
+      "Label: ": "Width"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "LineWalllwSize",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 1,
+      "Label: ": "Height"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "LineWalllwSoundSize",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Sound"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "LineWalllwSoundSpeed",
+      "Type: ": "fader",
+      "Index: ": 3,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 5,
+      "Name: ": "NoisePoints"
+    },
+    {
+      "Max: ": 3000,
+      "Name: ": "NoisePointsnpNoiseZ",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Depth"
+    },
+    {
+      "Max: ": 0.05000000074505806,
+      "Name: ": "NoisePointsnpSpeed",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "NoisePointsnpComplex",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Complex"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "NoisePointsnpSize",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "Size"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 6,
+      "Name: ": "ArcStack"
+    },
+    {
+      "Max: ": 200,
+      "Name: ": "ArcStackarcAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Amount"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ArcStackarcLength",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Length"
+    },
+    {
+      "Max: ": 5,
+      "Name: ": "ArcStackarcThickness",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Thickness"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ArcStackarcDir",
+      "Type: ": "knob",
+      "Index: ": 3,
+      "Min: ": 0,
+      "Label: ": "Direction"
+    },
+    {
+      "Max: ": 50,
+      "Name: ": "ArcStackarcThreshold",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Threshold"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ArcStackarcSpeed",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 0.10000000149011612,
+      "Name: ": "ArcStackarcSoundSpeed",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Sound"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "ArcStackarcDepth",
+      "Type: ": "fader",
+      "Index: ": 3,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "Depth"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 7,
+      "Name: ": "Strings"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "StringsattractorAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Amount"
+    },
+    {
+      "Max: ": 0.009999999776482582,
+      "Name: ": "StringsattractorSpeed",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "StringsattractorStrength",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Strength"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "StringsgravityStrength",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Gravity"
+    },
+    {
+      "Max: ": 2,
+      "Name: ": "StringsspringStrength",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0.009999999776482582,
+      "Label: ": "Spring"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "StringslockBottom",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Lock"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 8,
+      "Name: ": "SlidingRects"
+    },
+    {
+      "Max: ": 7,
+      "Name: ": "SlidingRectssrRenderMode",
+      "Type: ": "radioButton",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Render"
+    },
+    {
+      "Max: ": 50,
+      "Name: ": "SlidingRectssrSoundThreshold",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "Threshold"
+    },
+    {
+      "Max: ": 2,
+      "Name: ": "SlidingRectssrSizeGain",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "Size"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SlidingRectssrDirection",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Direction"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SlidingRectssrReset",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Reset"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 9,
+      "Name: ": "Squares"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "SquaressqNoise",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Noise"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SquaressqDir",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Direction"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "SquaressqStroke",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Stroke"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "SquaressqFill",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Fill"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "SquaressqSpeed",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 10,
+      "Name: ": "ShootingLines"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ShootingLinesdepth",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Depth"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ShootingLinesthreshold",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "Threshold"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ShootingLinesshootSpeed",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0.009999999776482582,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 0.009999999776482582,
+      "Name: ": "ShootingLineslineLength",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": 0.5,
+      "Label: ": "Length"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ShootingLinessoundG",
+      "Type: ": "fader",
+      "Index: ": 3,
+      "Min: ": 0,
+      "Label: ": "Sound"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ShootingLinesposReset",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Reset"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "ShootingLinesrandomMove",
+      "Type: ": "bang",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Random"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 11,
+      "Name: ": "SoundPlate"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SoundPlatevLineEnable",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "V. Lines"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SoundPlatehLineEnable",
+      "Type: ": "toggle",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "H. Lines"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SoundPlatepPointEnable",
+      "Type: ": "toggle",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Points"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "SoundPlatepFaceEnable",
+      "Type: ": "toggle",
+      "Index: ": 3,
+      "Min: ": 0,
+      "Label: ": "Faces"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "SoundPlatenoiseGain",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Noise"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "SoundPlatesoundWaveGain",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 1,
+      "Label: ": "Sound Gain"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "SoundPlatesoundPlateSW",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "Thickness"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 12,
+      "Name: ": "WireFrame"
+    },
+    {
+      "Max: ": 350,
+      "Name: ": "WireFramerad",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 10,
+      "Label: ": "Inner Rad"
+    },
+    {
+      "Max: ": 350,
+      "Name: ": "WireFrameRad",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 10,
+      "Label: ": "Outer Rad"
+    },
+    {
+      "Max: ": 50,
+      "Name: ": "WireFramerRes",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 5,
+      "Label: ": "V. Res"
+    },
+    {
+      "Max: ": 50,
+      "Name: ": "WireFrameRRes",
+      "Type: ": "knob",
+      "Index: ": 3,
+      "Min: ": 1,
+      "Label: ": "H. Res"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "WireFrameth",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "H. Slice"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "WireFrameph",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "V. Slice"
+    },
+    {
+      "Max: ": 0.05000000074505806,
+      "Name: ": "WireFramerotIncX",
+      "Type: ": "fader",
+      "Index: ": 2,
+      "Min: ": -0.05000000074505806,
+      "Label: ": "Self V. Rot."
+    },
+    {
+      "Max: ": 0.05000000074505806,
+      "Name: ": "WireFramerotIncY",
+      "Type: ": "fader",
+      "Index: ": 3,
+      "Min: ": -0.05000000074505806,
+      "Label: ": "Self H. Rot."
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "WireFramewfSw",
+      "Type: ": "fader",
+      "Index: ": 4,
+      "Min: ": 0.10000000149011612,
+      "Label: ": "Thickness"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "WireFramerotYStop",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Stop Self Rot."
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 13,
+      "Name: ": "Diamond"
+    },
+    {
+      "Max: ": 50,
+      "Name: ": "DiamonddiamondAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Amount"
+    },
+    {
+      "Max: ": 50,
+      "Name: ": "DiamondinGain",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Gain"
+    },
+    {
+      "Max: ": 10,
+      "Name: ": "DiamondnoiseRange",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Range"
+    },
+    {
+      "Max: ": 0.009999999776482582,
+      "Name: ": "DiamondnoiseSpeed",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0.0010000000474974513,
+      "Label: ": "Speed"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 14,
+      "Name: ": "Vorovis"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "VorovisflockEnable",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Flock"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "VorovisvoronoiEnable",
+      "Type: ": "toggle",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Voronoi"
+    },
+    {
+      "Max: ": 2,
+      "Name: ": "VorovisflockSpeed",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 2,
+      "Name: ": "VorovisflockSoundSpeed",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Sound"
+    }
+  ],
+  [
+    {
+      "Engine Index: ": 15,
+      "Name: ": "RotatingRoom"
+    },
+    {
+      "Max: ": 200,
+      "Name: ": "RotatingRoomrrAmount",
+      "Type: ": "knob",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Amount"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "RotatingRoomrrRad",
+      "Type: ": "knob",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Radius"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "RotatingRoomrrNoise",
+      "Type: ": "knob",
+      "Index: ": 2,
+      "Min: ": 0,
+      "Label: ": "Noise"
+    },
+    {
+      "Max: ": 0.009999999776482582,
+      "Name: ": "RotatingRoomrrSpeed",
+      "Type: ": "fader",
+      "Index: ": 0,
+      "Min: ": -0.009999999776482582,
+      "Label: ": "Speed"
+    },
+    {
+      "Max: ": 100,
+      "Name: ": "RotatingRoomrrSound",
+      "Type: ": "fader",
+      "Index: ": 1,
+      "Min: ": 0,
+      "Label: ": "Sound Gain"
+    },
+    {
+      "Max: ": 1,
+      "Name: ": "RotatingRoomrrRotStop",
+      "Type: ": "toggle",
+      "Index: ": 0,
+      "Min: ": 0,
+      "Label: ": "Stop"
+    }
+  ],
+  {"colorPaletteFileName": "colorPalette.png"}
+]

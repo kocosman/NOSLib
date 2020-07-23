@@ -1,0 +1,62 @@
+[
+  {
+    "soundFocusSize": 206,
+    "soundFocusOffset": 1093
+  },
+  {
+    "remoteIP": "192.168.1.81",
+    "incomingPort": 2345,
+    "outgoingPort": 7011
+  },
+  {
+    "midiDeviceIndex": 0,
+    "midiDeviceName": "nanoKONTROL2"
+  },
+  {
+    "knob7": 23,
+    "knob6": 22,
+    "knob5": 21,
+    "knob4": 20,
+    "knob3": 19,
+    "knob2": 18,
+    "knob1": 17,
+    "knob0": 16
+  },
+  {
+    "fader6": 6,
+    "fader7": 7,
+    "fader2": 2,
+    "fader3": 3,
+    "fader4": 4,
+    "fader5": 5,
+    "fader0": 0,
+    "fader1": 1
+  },
+  {
+    "button4": 49,
+    "button14": 68,
+    "button5": 65,
+    "button13": 52,
+    "button2": 64,
+    "button16": 53,
+    "button3": 33,
+    "button15": 37,
+    "button8": 66,
+    "button10": 51,
+    "button21": 39,
+    "button9": 35,
+    "button20": 70,
+    "button6": 34,
+    "button12": 36,
+    "button23": 71,
+    "button7": 50,
+    "button11": 67,
+    "button22": 55,
+    "button18": 38,
+    "button17": 69,
+    "button19": 54,
+    "button0": 32,
+    "button1": 48
+  },
+  {"colorPalette": "C:\\Users\\kocos\\Documents\\Processing\\libraries\\NOSLib\\examples\\NOSLib_VisualEngine\\data\\c2.png"}
+]

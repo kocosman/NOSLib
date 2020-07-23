@@ -1,0 +1,213 @@
+<project>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.nosvisuals.engine</groupId>
+	<artifactId>NOSLib</artifactId>
+	<version>1.0.0</version>
+
+
+	<!-- Address shortcuts -->
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<processing.external.library.dir>${user.home}/Documents/Processing/libraries</processing.external.library.dir>
+		<processing.internal.library.dir>${user.home}/Documents/processing-3.3.6/modes/java/libraries</processing.internal.library.dir>
+		<processing.core.library.dir>${user.home}/Documents/processing-3.3.6/core/library</processing.core.library.dir>
+	</properties>
+
+	<!-- Processing Core -->
+	<dependencies>
+		<dependency>
+			<groupId>org.processing</groupId>
+			<artifactId>core</artifactId>
+			<version>3.2.4</version>
+			<scope>system</scope>
+			<systemPath>${processing.core.library.dir}/core.jar</systemPath>
+		</dependency>
+
+
+		<dependency>
+			<groupId>com.jogamp</groupId>
+			<artifactId>jogl</artifactId>
+			<version>${java.version}</version>
+			<scope>system</scope>
+			<systemPath>${processing.core.library.dir}/jogl-all.jar</systemPath>
+		</dependency>
+
+		<!--Syphon 
+
+		<dependency>
+			<groupId>codeanticode.syphon</groupId>
+			<artifactId>syphon</artifactId>
+			<version>${java.version}</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/Syphon/library/Syphon.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>jsyphon</groupId>
+			<artifactId>jsyphon</artifactId>
+			<version>${java.version}</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/Syphon/library/jsyphon.jar</systemPath>
+		</dependency>
+
+		-->
+
+		<!--Spout -->
+
+		<dependency>
+			<groupId>spout</groupId>
+			<artifactId>Spout</artifactId>
+			<version>${java.version}</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/spout/library/spout.jar</systemPath>
+		</dependency>
+		
+
+		<!--Network -->
+
+		<dependency>
+			<groupId>net</groupId>
+			<artifactId>Network</artifactId>
+			<version>1.0.0</version>
+			<scope>system</scope>
+			<systemPath>${processing.internal.library.dir}/net/library/net.jar</systemPath>
+		</dependency>
+
+		<!--ControlP5 -->
+
+		<dependency>
+			<groupId>de.sojamo</groupId>
+			<artifactId>controlP5</artifactId>
+			<version>2.2.6</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/controlP5/library/controlP5.jar</systemPath>
+		</dependency>
+
+		<!--PeasyCam -->
+
+		<dependency>
+			<groupId>jdf</groupId>
+			<artifactId>peasyCam</artifactId>
+			<version>3.0.2</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/peasycam/library/peasycam.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>jdf</groupId>
+			<artifactId>peasyMath</artifactId>
+			<version>3.0.2</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/peasycam/library/peasy-math.jar</systemPath>
+		</dependency>
+
+		<!--Minim -->
+
+		<dependency>
+			<groupId>ddf</groupId>
+			<artifactId>minim</artifactId>
+			<version>2.2.2</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/minim/library/minim.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>ddf</groupId>
+			<artifactId>jl</artifactId>
+			<version>1.0.1</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/minim/library/jl1.0.1.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>ddf</groupId>
+			<artifactId>jsminim</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/minim/library/jsminim.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>ddf</groupId>
+			<artifactId>mp3spi</artifactId>
+			<version>1.9.5</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/minim/library/mp3spi1.9.5.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>ddf</groupId>
+			<artifactId>tritonus_aos</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/minim/library/tritonus_aos.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>ddf</groupId>
+			<artifactId>tritonus_share</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/minim/library/tritonus_share.jar</systemPath>
+		</dependency>
+
+		<!--OscP5 -->
+
+		<dependency>
+			<groupId>de.sojamo</groupId>
+			<artifactId>oscP5</artifactId>
+			<version>0.9.9</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/oscP5/library/oscP5.jar</systemPath>
+		</dependency>
+
+		<!--   MIDI   -->
+
+		<dependency>
+			<groupId>com.smallbutdigital</groupId>
+			<artifactId>themidibus</artifactId>
+			<version>8.0</version>
+			<scope>system</scope>
+			<systemPath>${processing.external.library.dir}/themidibus/library/themidibus.jar</systemPath>
+		</dependency>
+		
+		<!--      -->
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>3.0.0</version>
+
+				<configuration>
+					<finalName>${project.artifactId}</finalName>
+					<outputDirectory>library</outputDirectory>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>2.10</version>
+
+				<executions>
+					<execution>
+						<id>copy-dependencies</id>
+						<phase>package</phase>
+						<goals>
+							<goal>copy-dependencies</goal>
+						</goals>
+						<configuration>
+							<excludeGroupIds>org.processing</excludeGroupIds>
+							<outputDirectory>library</outputDirectory>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</project>
