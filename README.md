@@ -69,3 +69,6 @@ NOS is developed in Processing (compatible with 3.x) and relies heavily on the f
 * Shares the same layout as Korg NanoKontrol2 (8 knobs, 8 sliders, 3 buttons per channel) for easy physical-digital mapping
 * Buttons can be programmed as bang, button, toggle and radio button
 
+## Integrating your own visuals
+Processing has been a great environment for creative coders to learn, prototype and share the visuals. NOS came out of the necessity of a scene manager / GUI software that would enable transition between different visual engines that are written in Processing. If you would like to integrate your own visuals into NOS, please refer to the [Visual Engine Abstract Class](https://github.com/kocosman/NOSLib/blob/master/src/main/java/com/nosvisuals/engine/VisualEngine.java) and [Example Visual](https://github.com/kocosman/NOSLib/blob/master/examples/NOSLib_EmptyExample/Vistemp3D.pde) . 
+
