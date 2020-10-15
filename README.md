@@ -1,5 +1,6 @@
 # NOSLib
  NOS is a sound reactive visual performance tool developed and used by NOS Visuals (www.nosvisuals.com).
+![NOS_Teaser](https://github.com/kocosman/NOSLib/blob/master/ReadMeAssets/nosGIF.gif)
  
 NOS is developed in Processing (compatible with 3.x) and relies heavily on the following libraries:
 * **ControlP5:** Almost all GUI elements, separate windows for GUI and Canvas
